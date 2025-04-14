@@ -1,12 +1,13 @@
 package StepDefinition;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
 import io.cucumber.java.en.Given;
 
 public class Testccu1 {
 
-	WebDriver Driver = new ChromeDriver();
+	WebDriver Driver = new EdgeDriver();
 	
 	
 	@Given("Test Step for Scenario of Feature1")
